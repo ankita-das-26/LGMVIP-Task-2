@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-size:100%;
+   background-image: url("https://media.istockphoto.com/videos/animated-neon-glowing-frame-background-laser-show-loop-4k-animation-video-id1156293978?s=640x640"); 
+}
+.Nav {
+  font-family: 'Yanone Kaffeesatz', sans-serif;;
+  color: white;
+  height: 70px;
+  padding: 20px;
+  padding-bottom: 0px;
+  background-color:transparent;
+  
+}
+h1 {
+  float: left;
+  color: white;
+}
+.btn {
+  float: right;
+  padding: 10px;
+  background-color: #ff56d5;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.row {
+  margin:45px;
+}
+.column {
+  float: left;
+  margin: 15px 80px 15px 80px;
+}
+.card {
+  box-shadow: 0 3px 7px 0 rgba(250, 250, 250, 0.2);
+  padding: 40px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+
+  background-color: transparent;
+}
+.card-title{
+color: #000;
+text-emphasis-color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card-img-top {
+  background-color: black;
+  border-radius: 25%;
+  height: 80%;
+  width: 80%;
+  border: 1px solid black;
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.card-text {
+  color: rgb(255, 251, 251);
+  font-family: "Ubuntu", sans-serif;
+}
+.card:hover {
+  box-shadow: 0px 0px 4px 4px white;
+  cursor: pointer;
+}
+.card:hover .card-text {
+  color: #f3f3f3;
+}
